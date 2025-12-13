@@ -705,14 +705,3 @@ export default function ServiceDetailPage({ params }: { params: { slug: string }
     </main>
   )
 }
-
-export const dynamic = "force-static"
-export const dynamicParams = false
-
-export async function generateStaticParams() {
-  const slugs = Object.keys(servicesData)
-
-  return slugs.map((slug) => ({
-    slug: slug,
-  }))
-}

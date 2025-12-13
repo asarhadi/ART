@@ -23,6 +23,9 @@ export default function CTA() {
             <Button size="lg" className="bg-primary hover:bg-primary/90" onClick={() => setDialogOpen(true)}>
               Schedule Free Assessment
             </Button>
+            <Button size="lg" variant="outline">
+              <a href="tel:619-363-2238">Call: (619) 363-2238</a>
+            </Button>
           </div>
 
           <p className="mt-6 text-sm text-muted-foreground">
