@@ -117,7 +117,7 @@ export default function Navigation({ user, profile }: NavigationProps) {
                 transition: "filter 0.3s ease",
               }}
             >
-              <Link href="tel:619-363-2238">Call Now</Link>
+              <Link href="/contact">Contact Us</Link>
             </Button>
             {user ? (
               <DropdownMenu>
@@ -268,7 +268,9 @@ export default function Navigation({ user, profile }: NavigationProps) {
                   </Button>
                 )
               )}
-              <Button className="w-full bg-primary">Call Now</Button>
+              <Button className="w-full bg-primary">
+                <Link href="/contact">Contact Us</Link>
+              </Button>
             </div>
           </div>
         )}

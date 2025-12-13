@@ -145,18 +145,12 @@ export default function SupportPage() {
                 Speak directly with a support specialist for immediate assistance.
               </p>
               <div className="mt-6 space-y-2">
-                <p className="text-lg font-bold text-primary">
-                  <a href="tel:619-363-2238">619-363-2238</a>
-                </p>
                 <p className="text-sm text-muted-foreground">
                   Monday - Friday
                   <br />
                   8:00 AM - 6:00 PM PST
                 </p>
               </div>
-              <Button asChild className="mt-6 w-full bg-primary hover:bg-primary/90">
-                <a href="tel:619-363-2238">Call Now</a>
-              </Button>
             </div>
 
             {/* Live Chat Support */}
